@@ -6,6 +6,8 @@ def insertion_sort(arr):
             arr[j+1] = arr[j]
             j -= 1
         arr[j+1] = val
+        
+    return arr
 
     
 # array = [4,3,1,7,2,2]
